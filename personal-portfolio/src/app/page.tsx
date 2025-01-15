@@ -58,10 +58,19 @@ export default function Home() {
         <section>
           <div>
             <h3 className="text-3xl py-1">Skills</h3>
-            <h4></h4>
-            <p>
-              
-            </p>
+              <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 gap-4 p-4">
+                <div className="bg-gray-100 p-4">C/C++</div>
+                <div className="bg-gray-100 p-4">Python</div>
+                <div className="bg-gray-100 p-4">Javascript</div>
+                <div className="bg-gray-100 p-4">Java</div>
+                <div className="bg-gray-100 p-4">HTML/CSS</div>
+                <div className="bg-gray-100 p-4">Node.js</div>
+                <div className="bg-gray-100 p-4">React.js</div>
+                <div className="bg-gray-100 p-4">C#</div>
+                <div className="bg-gray-100 p-4">SQL</div>
+                <div className="bg-gray-100 p-4">Pytorch</div>
+                <div className="bg-gray-100 p-4">Git</div>
+            </div>
           </div>
         </section>
         <section>
